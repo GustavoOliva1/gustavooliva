@@ -144,7 +144,12 @@
     @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
     @keyframes fade{to{opacity:1}}
   }
-
+  /* ---------- retrato ---------- */
+  .portrait{margin:0;}
+  .portrait img{
+    width:100%;height:auto;display:block;
+    border-radius:2px;border:1px solid var(--rule);
+  }
   /* ---------- sections ---------- */
   section{border-top:1px solid var(--rule);padding-block:clamp(2.75rem,6vw,4.5rem);scroll-margin-top:60px;}
   .sec{display:grid;gap:clamp(1.25rem,3vw,3rem);grid-template-columns:1fr;}
@@ -290,7 +295,9 @@
         <a href="cv.pdf" data-pt="Currículo (PDF)" data-en="CV (PDF)">Currículo (PDF)</a>
       </div>
     </div>
-    
+        <figure class="portrait fig-in">
+      <img src="foto.jpg" alt="Gustavo Oliva de Oliveira" width="900" height="1100">
+    </figure>
   </div>
 </div>
 
